@@ -18,7 +18,7 @@ class Core(models.Model):
             message = client.messages.create(
                                         body='Hi There !',
                                         from_='+18328502576',
-                                        to='+919080483660',
+                                        to='Reciever Number',
                                         )
 
             print(message.sid)
